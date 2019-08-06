@@ -1,8 +1,12 @@
 import React from 'react';
+import Newstar from './Newstar';
 
 function App() {
   return (
-    <div className="App" />
+    <div>
+      <h1>Hello</h1>
+      <Newstar />
+    </div>
   );
 }
 
