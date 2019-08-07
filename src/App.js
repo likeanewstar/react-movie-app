@@ -1,18 +1,17 @@
 import React from 'react';
 
-function Rv({ name }) {
-  return <h2>Her name is {name}.</h2>
+function Song({ title }) {
+  return <h2>My favorite song is {title}.</h2>
 }
 
 function App() {
   return (
     <div>
       <h1>Hello</h1>
-      <Rv name="Irene" />
-      <Rv name="Seulgi" />
-      <Rv name="Wendy" />
-      <Rv name="Joy" />
-      <Rv name="Yeri" />
+      <Song title="I" />
+      <Song title="Why" />
+      <Song title="Fine" />
+      <Song title="Something New" />
     </div>
   );
 }
